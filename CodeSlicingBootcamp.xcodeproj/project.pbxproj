@@ -16,6 +16,8 @@
 		AC9333BA2B2AE696001A55C1 /* PhotosIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9333B92B2AE696001A55C1 /* PhotosIcon.swift */; };
 		AC9333BD2B2AF929001A55C1 /* AppIconCreator in Frameworks */ = {isa = PBXBuildFile; productRef = AC9333BC2B2AF929001A55C1 /* AppIconCreator */; };
 		AC9333C42B30F133001A55C1 /* AddingEffectsToViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9333C32B30F133001A55C1 /* AddingEffectsToViews.swift */; };
+		AC9333C62B30F6F4001A55C1 /* AddingEffectsToViewsOculus.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9333C52B30F6F4001A55C1 /* AddingEffectsToViewsOculus.swift */; };
+		AC9333CA2B30F9EA001A55C1 /* GridLayoutArrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9333C92B30F9EA001A55C1 /* GridLayoutArrow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		AC9333B42B2A721A001A55C1 /* StickyToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyToggle.swift; sourceTree = "<group>"; };
 		AC9333B92B2AE696001A55C1 /* PhotosIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosIcon.swift; sourceTree = "<group>"; };
 		AC9333C32B30F133001A55C1 /* AddingEffectsToViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingEffectsToViews.swift; sourceTree = "<group>"; };
+		AC9333C52B30F6F4001A55C1 /* AddingEffectsToViewsOculus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingEffectsToViewsOculus.swift; sourceTree = "<group>"; };
+		AC9333C92B30F9EA001A55C1 /* GridLayoutArrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayoutArrow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +68,6 @@
 				AC9333A82B2A7180001A55C1 /* ContentView.swift */,
 				AC9333A62B2A7180001A55C1 /* CodeSlicingBootcampApp.swift */,
 				AC9333C22B30F0F0001A55C1 /* Series */,
-				AC9333B42B2A721A001A55C1 /* StickyToggle.swift */,
 				AC9333AA2B2A7182001A55C1 /* Assets.xcassets */,
 				AC9333AC2B2A7182001A55C1 /* Preview Content */,
 			);
@@ -83,9 +86,28 @@
 			isa = PBXGroup;
 			children = (
 				AC9333B92B2AE696001A55C1 /* PhotosIcon.swift */,
-				AC9333C32B30F133001A55C1 /* AddingEffectsToViews.swift */,
+				AC9333B42B2A721A001A55C1 /* StickyToggle.swift */,
+				AC9333C82B30F9CD001A55C1 /* GridLayoutGuides */,
+				AC9333C72B30F6FD001A55C1 /* AddingEffects */,
 			);
 			path = Series;
+			sourceTree = "<group>";
+		};
+		AC9333C72B30F6FD001A55C1 /* AddingEffects */ = {
+			isa = PBXGroup;
+			children = (
+				AC9333C52B30F6F4001A55C1 /* AddingEffectsToViewsOculus.swift */,
+				AC9333C32B30F133001A55C1 /* AddingEffectsToViews.swift */,
+			);
+			path = AddingEffects;
+			sourceTree = "<group>";
+		};
+		AC9333C82B30F9CD001A55C1 /* GridLayoutGuides */ = {
+			isa = PBXGroup;
+			children = (
+				AC9333C92B30F9EA001A55C1 /* GridLayoutArrow.swift */,
+			);
+			path = GridLayoutGuides;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +192,8 @@
 				AC9333C42B30F133001A55C1 /* AddingEffectsToViews.swift in Sources */,
 				AC9333BA2B2AE696001A55C1 /* PhotosIcon.swift in Sources */,
 				AC9333B52B2A721A001A55C1 /* StickyToggle.swift in Sources */,
+				AC9333CA2B30F9EA001A55C1 /* GridLayoutArrow.swift in Sources */,
+				AC9333C62B30F6F4001A55C1 /* AddingEffectsToViewsOculus.swift in Sources */,
 				AC9333A72B2A7180001A55C1 /* CodeSlicingBootcampApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

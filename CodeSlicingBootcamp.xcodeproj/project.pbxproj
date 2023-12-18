@@ -18,6 +18,7 @@
 		AC9333C42B30F133001A55C1 /* AddingEffectsToViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9333C32B30F133001A55C1 /* AddingEffectsToViews.swift */; };
 		AC9333C62B30F6F4001A55C1 /* AddingEffectsToViewsOculus.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9333C52B30F6F4001A55C1 /* AddingEffectsToViewsOculus.swift */; };
 		AC9333CA2B30F9EA001A55C1 /* GridLayoutArrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9333C92B30F9EA001A55C1 /* GridLayoutArrow.swift */; };
+		AC9333CC2B3100D0001A55C1 /* PolarLayoutGuides.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9333CB2B3100D0001A55C1 /* PolarLayoutGuides.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		AC9333C32B30F133001A55C1 /* AddingEffectsToViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingEffectsToViews.swift; sourceTree = "<group>"; };
 		AC9333C52B30F6F4001A55C1 /* AddingEffectsToViewsOculus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingEffectsToViewsOculus.swift; sourceTree = "<group>"; };
 		AC9333C92B30F9EA001A55C1 /* GridLayoutArrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayoutArrow.swift; sourceTree = "<group>"; };
+		AC9333CB2B3100D0001A55C1 /* PolarLayoutGuides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolarLayoutGuides.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				AC9333C92B30F9EA001A55C1 /* GridLayoutArrow.swift */,
+				AC9333CB2B3100D0001A55C1 /* PolarLayoutGuides.swift */,
 			);
 			path = GridLayoutGuides;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				AC9333CA2B30F9EA001A55C1 /* GridLayoutArrow.swift in Sources */,
 				AC9333C62B30F6F4001A55C1 /* AddingEffectsToViewsOculus.swift in Sources */,
 				AC9333A72B2A7180001A55C1 /* CodeSlicingBootcampApp.swift in Sources */,
+				AC9333CC2B3100D0001A55C1 /* PolarLayoutGuides.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

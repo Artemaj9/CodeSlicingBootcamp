@@ -11,6 +11,11 @@
 		AC9333A92B2A7180001A55C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9333A82B2A7180001A55C1 /* ContentView.swift */; };
 		AC9333AB2B2A7182001A55C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9333AA2B2A7182001A55C1 /* Assets.xcassets */; };
 		AC9333AE2B2A7182001A55C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9333AD2B2A7182001A55C1 /* Preview Assets.xcassets */; };
+		AC9333B52B2A721A001A55C1 /* StickyToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9333B42B2A721A001A55C1 /* StickyToggle.swift */; };
+		AC9333B82B2A72CC001A55C1 /* PureSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = AC9333B72B2A72CC001A55C1 /* PureSwiftUI */; };
+		AC9333BA2B2AE696001A55C1 /* PhotosIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9333B92B2AE696001A55C1 /* PhotosIcon.swift */; };
+		AC9333BD2B2AF929001A55C1 /* AppIconCreator in Frameworks */ = {isa = PBXBuildFile; productRef = AC9333BC2B2AF929001A55C1 /* AppIconCreator */; };
+		AC9333C42B30F133001A55C1 /* AddingEffectsToViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9333C32B30F133001A55C1 /* AddingEffectsToViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,9 @@
 		AC9333A82B2A7180001A55C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AC9333AA2B2A7182001A55C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC9333AD2B2A7182001A55C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC9333B42B2A721A001A55C1 /* StickyToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyToggle.swift; sourceTree = "<group>"; };
+		AC9333B92B2AE696001A55C1 /* PhotosIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosIcon.swift; sourceTree = "<group>"; };
+		AC9333C32B30F133001A55C1 /* AddingEffectsToViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingEffectsToViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +34,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC9333BD2B2AF929001A55C1 /* AppIconCreator in Frameworks */,
+				AC9333B82B2A72CC001A55C1 /* PureSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +61,10 @@
 		AC9333A52B2A7180001A55C1 /* CodeSlicingBootcamp */ = {
 			isa = PBXGroup;
 			children = (
-				AC9333A62B2A7180001A55C1 /* CodeSlicingBootcampApp.swift */,
 				AC9333A82B2A7180001A55C1 /* ContentView.swift */,
+				AC9333A62B2A7180001A55C1 /* CodeSlicingBootcampApp.swift */,
+				AC9333C22B30F0F0001A55C1 /* Series */,
+				AC9333B42B2A721A001A55C1 /* StickyToggle.swift */,
 				AC9333AA2B2A7182001A55C1 /* Assets.xcassets */,
 				AC9333AC2B2A7182001A55C1 /* Preview Content */,
 			);
@@ -65,6 +77,15 @@
 				AC9333AD2B2A7182001A55C1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC9333C22B30F0F0001A55C1 /* Series */ = {
+			isa = PBXGroup;
+			children = (
+				AC9333B92B2AE696001A55C1 /* PhotosIcon.swift */,
+				AC9333C32B30F133001A55C1 /* AddingEffectsToViews.swift */,
+			);
+			path = Series;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +104,10 @@
 			dependencies = (
 			);
 			name = CodeSlicingBootcamp;
+			packageProductDependencies = (
+				AC9333B72B2A72CC001A55C1 /* PureSwiftUI */,
+				AC9333BC2B2AF929001A55C1 /* AppIconCreator */,
+			);
 			productName = CodeSlicingBootcamp;
 			productReference = AC9333A32B2A7180001A55C1 /* CodeSlicingBootcamp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +136,10 @@
 				Base,
 			);
 			mainGroup = AC93339A2B2A7180001A55C1;
+			packageReferences = (
+				AC9333B62B2A72CC001A55C1 /* XCRemoteSwiftPackageReference "pure-swift-ui" */,
+				AC9333BB2B2AF929001A55C1 /* XCRemoteSwiftPackageReference "swiftui-app-icon-creator" */,
+			);
 			productRefGroup = AC9333A42B2A7180001A55C1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,6 +167,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC9333A92B2A7180001A55C1 /* ContentView.swift in Sources */,
+				AC9333C42B30F133001A55C1 /* AddingEffectsToViews.swift in Sources */,
+				AC9333BA2B2AE696001A55C1 /* PhotosIcon.swift in Sources */,
+				AC9333B52B2A721A001A55C1 /* StickyToggle.swift in Sources */,
 				AC9333A72B2A7180001A55C1 /* CodeSlicingBootcampApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +371,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AC9333B62B2A72CC001A55C1 /* XCRemoteSwiftPackageReference "pure-swift-ui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CodeSlicing/pure-swift-ui.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		AC9333BB2B2AF929001A55C1 /* XCRemoteSwiftPackageReference "swiftui-app-icon-creator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/darrarski/swiftui-app-icon-creator.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AC9333B72B2A72CC001A55C1 /* PureSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC9333B62B2A72CC001A55C1 /* XCRemoteSwiftPackageReference "pure-swift-ui" */;
+			productName = PureSwiftUI;
+		};
+		AC9333BC2B2AF929001A55C1 /* AppIconCreator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC9333BB2B2AF929001A55C1 /* XCRemoteSwiftPackageReference "swiftui-app-icon-creator" */;
+			productName = AppIconCreator;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AC93339B2B2A7180001A55C1 /* Project object */;
 }

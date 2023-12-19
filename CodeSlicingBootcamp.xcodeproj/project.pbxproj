@@ -22,6 +22,7 @@
 		AC9333CA2B30F9EA001A55C1 /* GridLayoutArrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9333C92B30F9EA001A55C1 /* GridLayoutArrow.swift */; };
 		AC9333CC2B3100D0001A55C1 /* PolarLayoutGuides.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9333CB2B3100D0001A55C1 /* PolarLayoutGuides.swift */; };
 		AC9333CE2B310765001A55C1 /* HeartShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9333CD2B310765001A55C1 /* HeartShape.swift */; };
+		ACB8B2032B31C7A900F41761 /* ImplementingViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB8B2022B31C7A900F41761 /* ImplementingViewModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		AC9333C92B30F9EA001A55C1 /* GridLayoutArrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayoutArrow.swift; sourceTree = "<group>"; };
 		AC9333CB2B3100D0001A55C1 /* PolarLayoutGuides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolarLayoutGuides.swift; sourceTree = "<group>"; };
 		AC9333CD2B310765001A55C1 /* HeartShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartShape.swift; sourceTree = "<group>"; };
+		ACB8B2022B31C7A900F41761 /* ImplementingViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementingViewModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				AC3D19C52B31C053005552C6 /* CustomModifiersExtensions.swift */,
+				ACB8B2022B31C7A900F41761 /* ImplementingViewModifier.swift */,
 			);
 			path = CustomModifiers;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				AC9333CA2B30F9EA001A55C1 /* GridLayoutArrow.swift in Sources */,
 				AC3D19C62B31C053005552C6 /* CustomModifiersExtensions.swift in Sources */,
 				AC9333C62B30F6F4001A55C1 /* AddingEffectsToViewsOculus.swift in Sources */,
+				ACB8B2032B31C7A900F41761 /* ImplementingViewModifier.swift in Sources */,
 				AC3D19C42B3110DF005552C6 /* MorphingShapes.swift in Sources */,
 				AC9333A72B2A7180001A55C1 /* CodeSlicingBootcampApp.swift in Sources */,
 				AC9333CC2B3100D0001A55C1 /* PolarLayoutGuides.swift in Sources */,

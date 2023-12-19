@@ -22,8 +22,6 @@ struct CustomModifiersExtensions: View {
             .grid(4, 5)
             .returnRectangleIf(false)
             .defaultSizeAndShadow()
-           
-            
     }
 }
 

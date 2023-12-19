@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC3D19C42B3110DF005552C6 /* MorphingShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3D19C32B3110DF005552C6 /* MorphingShapes.swift */; };
+		AC3D19C62B31C053005552C6 /* CustomModifiersExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3D19C52B31C053005552C6 /* CustomModifiersExtensions.swift */; };
 		AC9333A72B2A7180001A55C1 /* CodeSlicingBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9333A62B2A7180001A55C1 /* CodeSlicingBootcampApp.swift */; };
 		AC9333A92B2A7180001A55C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9333A82B2A7180001A55C1 /* ContentView.swift */; };
 		AC9333AB2B2A7182001A55C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9333AA2B2A7182001A55C1 /* Assets.xcassets */; };
@@ -19,9 +21,12 @@
 		AC9333C62B30F6F4001A55C1 /* AddingEffectsToViewsOculus.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9333C52B30F6F4001A55C1 /* AddingEffectsToViewsOculus.swift */; };
 		AC9333CA2B30F9EA001A55C1 /* GridLayoutArrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9333C92B30F9EA001A55C1 /* GridLayoutArrow.swift */; };
 		AC9333CC2B3100D0001A55C1 /* PolarLayoutGuides.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9333CB2B3100D0001A55C1 /* PolarLayoutGuides.swift */; };
+		AC9333CE2B310765001A55C1 /* HeartShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9333CD2B310765001A55C1 /* HeartShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC3D19C32B3110DF005552C6 /* MorphingShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphingShapes.swift; sourceTree = "<group>"; };
+		AC3D19C52B31C053005552C6 /* CustomModifiersExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiersExtensions.swift; sourceTree = "<group>"; };
 		AC9333A32B2A7180001A55C1 /* CodeSlicingBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeSlicingBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC9333A62B2A7180001A55C1 /* CodeSlicingBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSlicingBootcampApp.swift; sourceTree = "<group>"; };
 		AC9333A82B2A7180001A55C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +38,7 @@
 		AC9333C52B30F6F4001A55C1 /* AddingEffectsToViewsOculus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingEffectsToViewsOculus.swift; sourceTree = "<group>"; };
 		AC9333C92B30F9EA001A55C1 /* GridLayoutArrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayoutArrow.swift; sourceTree = "<group>"; };
 		AC9333CB2B3100D0001A55C1 /* PolarLayoutGuides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolarLayoutGuides.swift; sourceTree = "<group>"; };
+		AC9333CD2B310765001A55C1 /* HeartShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +54,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC3D19C72B31C057005552C6 /* CustomModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				AC3D19C52B31C053005552C6 /* CustomModifiersExtensions.swift */,
+			);
+			path = CustomModifiers;
+			sourceTree = "<group>";
+		};
 		AC93339A2B2A7180001A55C1 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				AC9333B92B2AE696001A55C1 /* PhotosIcon.swift */,
+				AC3D19C72B31C057005552C6 /* CustomModifiers */,
 				AC9333B42B2A721A001A55C1 /* StickyToggle.swift */,
 				AC9333C82B30F9CD001A55C1 /* GridLayoutGuides */,
 				AC9333C72B30F6FD001A55C1 /* AddingEffects */,
@@ -108,7 +123,9 @@
 			isa = PBXGroup;
 			children = (
 				AC9333C92B30F9EA001A55C1 /* GridLayoutArrow.swift */,
+				AC3D19C32B3110DF005552C6 /* MorphingShapes.swift */,
 				AC9333CB2B3100D0001A55C1 /* PolarLayoutGuides.swift */,
+				AC9333CD2B310765001A55C1 /* HeartShape.swift */,
 			);
 			path = GridLayoutGuides;
 			sourceTree = "<group>";
@@ -194,9 +211,12 @@
 				AC9333A92B2A7180001A55C1 /* ContentView.swift in Sources */,
 				AC9333C42B30F133001A55C1 /* AddingEffectsToViews.swift in Sources */,
 				AC9333BA2B2AE696001A55C1 /* PhotosIcon.swift in Sources */,
+				AC9333CE2B310765001A55C1 /* HeartShape.swift in Sources */,
 				AC9333B52B2A721A001A55C1 /* StickyToggle.swift in Sources */,
 				AC9333CA2B30F9EA001A55C1 /* GridLayoutArrow.swift in Sources */,
+				AC3D19C62B31C053005552C6 /* CustomModifiersExtensions.swift in Sources */,
 				AC9333C62B30F6F4001A55C1 /* AddingEffectsToViewsOculus.swift in Sources */,
+				AC3D19C42B3110DF005552C6 /* MorphingShapes.swift in Sources */,
 				AC9333A72B2A7180001A55C1 /* CodeSlicingBootcampApp.swift in Sources */,
 				AC9333CC2B3100D0001A55C1 /* PolarLayoutGuides.swift in Sources */,
 			);
